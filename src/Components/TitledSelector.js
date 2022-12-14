@@ -18,7 +18,8 @@ const Select = styled.select`
 
 function TitledSelector({title, options}) {
     const Title = title === undefined ? 
-        (<div></div>) : 
+    <div className='caption'></div>
+    (<div></div>) : 
         (<div>{title}</div>);
     return (
         <div className='d-flex flex-column gap-2'>
