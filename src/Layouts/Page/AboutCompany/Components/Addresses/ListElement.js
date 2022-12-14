@@ -18,8 +18,7 @@ function ListElement(props) {
             <Option className='flex-grow-1 p-2'>{props.children}</Option>
             <IconOnlyButton icon={<EditIcon/>}/>
             <IconOnlyButton icon={<RemoveIcon/>}/>
-            <SecondaryButton minWidth='0'>Ред.</SecondaryButton>
-            <SecondaryButton minWidth='0'>Удл.</SecondaryButton>
+            
         </div>
     );
 }
