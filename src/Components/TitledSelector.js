@@ -26,7 +26,7 @@ function TitledSelector({title, options}) {
             {Title}
             </div> 
             <Select className='p-2'>
-                {options.map(optionName => {
+            {options.map(optionName => {
                     return (
                         <option key={optionName}>{optionName}</option>
                     );
