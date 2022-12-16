@@ -5,7 +5,7 @@ function General()
  {
     return (
       
-        <div className='d-inline-flex flex-column'>
+        <div className='d-inline-flex flex-column mt-5 col'>
             
             <Profile/> {/* Фото компании, название, тип и адрес */}
             <Preferences/> {/* Инпуты, где можно поменять название, тип и адрес */}
