@@ -20,7 +20,7 @@ function SecondaryButton(props) {
     `;
     return (
         <Clickable >
-            <Button className='p-2 text-md'>
+            <Button className='px-3 py-2 text-md'>
                 {props.children}
             </Button>
         </Clickable>
